@@ -1,0 +1,107 @@
+body{background-color:rgb(86, 227, 240); 
+      padding: 0px;
+      margin: 0px;}
+
+.header{background-color: rgb(235, 199, 82);
+        padding: 0px;
+         margin: 0px; 
+         text-align: center;
+       }      
+#Home{ animation-direction: alternate;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out; }
+
+li {
+  display: inline;
+}
+  
+li ,a:hover{  
+      color: rgb(247, 88, 15);}
+
+h1{ color: rgb(75, 14, 230);
+    font-size: 60px; }
+
+#gallary {padding:5px;  
+          }
+.carousel-inner img{
+  padding: 15px;  
+  }
+
+.card-gallary:hover{ border: 2px solid red;
+                transform: scale(0.7);
+                position: relative;
+                
+}
+h2{ background-color: rgb(237, 229, 76);
+    text-align: center;
+    margin: 0px;
+    padding-top: : 5px; padding-right: 5px;
+    padding-left:  5px;
+     }
+.blank { border: 2px solid #a89932;
+          
+          margin: 40px;
+          padding:2px;      }
+.blank  card-body img:hover{ padding:10px; margin: 0px;
+                transform: scale(1.3);}
+
+.checked { color: rgb(232, 26, 26);
+}
+
+#contact-us { background-color: black;
+          color: white; 
+          margin: 0px;
+          padding: 10px;
+          }
+
+.location{ font-size: 20px; }          
+
+.fa{   border-image:1px solid #f59342; }
+.fa:hover{background-color: black;}
+
+.pop-box{ width: 350px;
+          box-shadow: 5px 10px 25px #555; 
+          position: fixed;
+          z-index: 9999;
+          right: -350px;
+          bottom: 15px;
+          transition: 0.7s ease-in-out;
+          -moz-transition:0.7s ease-in-out;
+          -webkit-transition:1s ease-in-out;
+    }
+.pop{background: #a89932;
+      margin-left: -50px;
+      margin-top: -2px;
+      border-radius: 10px;
+      border:2px solid #fff; 
+      box-shadow: 5px 10px 25px #555; padding: 8px; }
+
+.pop img{padding-right: 30px;}
+
+.pop-box:hover{right: 0px;}      
+          
+
+rg-image-nav a:hover{
+  opacity:0.8;
+}
+
+@media (min-width: 768px) {
+.carousel-multi-item-2 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+
+.multi-item-example{
+   animation-delay: 1s;
+  
+}
+.footer{text-justify:center;}
+.footer .fa{
+          font-size: 25px;
+           color: white; 
+           margin: 10px;
+}
+h5{ margin: 5px; }
